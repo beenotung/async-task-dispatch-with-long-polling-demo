@@ -1,0 +1,37 @@
+Inside the server directory, you can run several commands:
+
+  npm start
+    Starts the auto-refresh development server.
+    It auto generates the client/src/sdk.ts based on the APIs defined in server/src/core.ts.
+
+  npm run db:setup
+    Migrate the database schema to latest version.
+
+  npm run db:plan
+    Auto-generate migration based on erd.txt and current database schema.
+
+  npm run db:update
+    Apply the new migration plan, and update the proxy.ts based on the erd.txt.
+
+  npm run db:seed
+    Populate the database with sample data in server/seed.ts.
+
+  npm run build
+    Builds the web project into 'dist' folder.
+
+
+Get started by typing:
+
+  cd async-task-demo/server
+  pnpm i
+  npm run db:setup
+  npm start
+
+
+Installation Alternatives:
+
+  pnpm i
+  or
+  yarn install
+  or
+  npm install

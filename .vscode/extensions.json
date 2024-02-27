@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "PKief.material-icon-theme",
+    "Tobermory.es6-string-html",
+    "eamodio.gitlens",
+    "esbenp.prettier-vscode",
+    "streetsidesoftware.code-spell-checker",
+    "usernamehw.errorlens"
+  ]
+}
